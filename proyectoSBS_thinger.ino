@@ -23,8 +23,8 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 //Red WIFI
-const char WIFI_ssid [] = "KiZinho";
-const char WIFI_password [] = "dubistjetztoben";
+const char WIFI_ssid [] = "ssId-del-wifi-a-utilizar";
+const char WIFI_password [] = "contraseña-del-wifi-a-utilizar";
 
 //Parametros de conexion con thinger.io
 #define usuario "jmveleztorres"
