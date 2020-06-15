@@ -16,7 +16,7 @@
 #define MQ A0               // Puerto sensor MQ135
 #define MQ2 D3              // Puerto del sensor MQ2
 #define LISTEN_PORT 80      // Puerto de conexion web
-#define 
+#define BUZZER D4           // Puerto del Buzzer
 
 
 //Ini sensores
@@ -55,6 +55,6 @@ void setup(){
 }
 
 void loop(){
-
+    digitalWrite(BUZZER, digitalRead(MQ2));  //El output del buzzer es identico al intput del sensor MQ2
     thing.handle();
 }
