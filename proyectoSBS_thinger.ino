@@ -27,9 +27,9 @@ const char WIFI_ssid [] = "ssId-del-wifi-a-utilizar";
 const char WIFI_password [] = "contraseña-del-wifi-a-utilizar";
 
 //Parametros de conexion con thinger.io
-#define usuario "jmveleztorres"
-#define device_Id "Lichterfelde_Berlin"
-#define device_credentials "955KyqJuP&m7" // "z@HmT+c_mlH9"
+#define usuario "Id_usuario-thinger.io"
+#define device_Id "Nombre-estacion"
+#define device_credentials "credenciales-obtenidas-desde-thinger.io" // "z@HmT+c_mlH9"
 
 MQ135 gasSensor = MQ135(MQ);
 
